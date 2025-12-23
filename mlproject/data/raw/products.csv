@@ -1,0 +1,100 @@
+brand,category,material,rating,transactions,price
+Nike,Shoes,Leather,4.5,1000,120.0
+Adidas,Apparel,Cotton,4.2,500,80.0
+Puma,Shoes,Synthetic,4.0,750,100.0
+Reebok,Apparel,Polyester,3.8,300,60.0
+Nike,Shoes,Canvas,4.8,2000,150.0
+Adidas,Shoes,Leather,4.6,1500,130.0
+Gucci,Handbag,Leather,4.9,100,2500.0
+Prada,Handbag,Nylon,4.7,50,1800.0
+Nike,Apparel,Cotton,4.3,800,90.0
+Adidas,Apparel,Polyester,4.1,600,70.0
+LV,Handbag,Canvas,4.8,80,3500.0
+Hermes,Handbag,Leather,4.9,30,8000.0
+Zara,Apparel,Cotton,3.5,2500,40.0
+H&M,Apparel,Cotton,3.2,3000,30.0
+Uniqlo,Apparel,Cotton,4.0,4000,50.0
+Nike,Shoes,Synthetic,4.2,1200,110.0
+Adidas,Shoes,Synthetic,4.3,1800,140.0
+Puma,Apparel,Cotton,3.9,900,65.0
+Reebok,Shoes,Leather,4.1,400,95.0
+Fendi,Handbag,Leather,4.8,60,2200.0
+Bottega Veneta,Handbag,Leather,4.9,40,4500.0
+Asics,Shoes,Synthetic,4.4,600,105.0
+New Balance,Shoes,Leather,4.5,900,115.0
+Under Armour,Apparel,Polyester,4.0,700,55.0
+The North Face,Apparel,Polyester,4.6,500,180.0
+Patagonia,Apparel,Polyester,4.7,400,200.0
+Off-White,Shoes,Canvas,4.5,50,700.0
+Balenciaga,Shoes,Synthetic,4.6,30,900.0
+Vans,Shoes,Canvas,4.3,3000,70.0
+Converse,Shoes,Canvas,4.2,3500,60.0
+Superdry,Apparel,Cotton,3.8,1500,80.0
+Hollister,Apparel,Cotton,3.6,2000,45.0
+Abercrombie & Fitch,Apparel,Cotton,3.7,1800,55.0
+Gap,Apparel,Cotton,3.5,2200,35.0
+Old Navy,Apparel,Cotton,3.3,4000,25.0
+Lululemon,Apparel,Synthetic,4.8,1000,120.0
+Gymshark,Apparel,Synthetic,4.5,1500,60.0
+Nike,Accessories,Plastic,4.0,5000,20.0
+Adidas,Accessories,Plastic,4.1,4500,18.0
+Puma,Accessories,Plastic,3.9,3000,15.0
+Reebok,Accessories,Plastic,3.8,2500,12.0
+Apple,Electronics,Metal,4.9,10000,1000.0
+Samsung,Electronics,Plastic,4.7,8000,800.0
+Sony,Electronics,Plastic,4.6,6000,700.0
+LG,Electronics,Plastic,4.5,5000,600.0
+Microsoft,Electronics,Metal,4.8,7000,900.0
+Google,Electronics,Plastic,4.7,9000,850.0
+Amazon,Electronics,Plastic,4.6,12000,50.0
+Dell,Electronics,Plastic,4.4,4000,500.0
+HP,Electronics,Plastic,4.3,3000,400.0
+Lenovo,Electronics,Plastic,4.5,6000,550.0
+Acer,Electronics,Plastic,4.2,2000,300.0
+Asus,Electronics,Plastic,4.6,5000,650.0
+MSI,Electronics,Plastic,4.7,4000,750.0
+Razer,Electronics,Metal,4.8,3000,1200.0
+Corsair,Electronics,Metal,4.7,2500,200.0
+Logitech,Electronics,Plastic,4.6,8000,80.0
+SteelSeries,Electronics,Plastic,4.5,4000,100.0
+HyperX,Electronics,Plastic,4.6,5000,90.0
+Sennheiser,Electronics,Plastic,4.7,3000,150.0
+Bose,Electronics,Plastic,4.8,4000,250.0
+JBL,Electronics,Plastic,4.6,6000,120.0
+Beats,Electronics,Plastic,4.5,7000,200.0
+Anker,Electronics,Plastic,4.7,10000,40.0
+RAVPower,Electronics,Plastic,4.6,8000,30.0
+Aukey,Electronics,Plastic,4.5,6000,25.0
+Lego,Toys,Plastic,4.9,5000,50.0
+Hasbro,Toys,Plastic,4.7,4000,30.0
+Mattel,Toys,Plastic,4.6,6000,25.0
+Bandai Namco,Toys,Plastic,4.8,3000,40.0
+Funko,Toys,Plastic,4.9,10000,12.0
+Hot Wheels,Toys,Metal,4.8,8000,5.0
+Barbie,Toys,Plastic,4.7,7000,20.0
+Nerf,Toys,Plastic,4.6,5000,35.0
+Play-Doh,Toys,Plastic,4.8,6000,10.0
+Fisher-Price,Toys,Plastic,4.7,4000,22.0
+VTech,Toys,Plastic,4.6,3000,30.0
+LeapFrog,Toys,Plastic,4.7,2000,40.0
+Melissa & Doug,Toys,Wood,4.8,1000,25.0
+Crayola,Toys,Wax,4.9,8000,8.0
+Elmer's,Toys,Glue,4.8,10000,3.0
+Bic,Stationery,Plastic,4.7,20000,2.0
+Papermate,Stationery,Plastic,4.6,15000,2.5
+Sharpie,Stationery,Plastic,4.8,18000,3.5
+Post-it,Stationery,Paper,4.9,25000,4.0
+Scotch,Stationery,Plastic,4.8,12000,3.0
+Mead,Stationery,Paper,4.6,10000,5.0
+Five Star,Stationery,Paper,4.7,8000,6.0
+Ticonderoga,Stationery,Wood,4.9,30000,4.5
+Nike,Shoes,Leather,4.5,100,99999.0
+Adidas,Apparel,Cotton,4.2,50,99999.0
+Puma,Shoes,Synthetic,4.0,75,99999.0
+Reebok,Apparel,Polyester,3.8,30,99999.0
+Nike,Shoes,Canvas,4.8,20,99999.0
+Gucci,Handbag,Leather,0.1,1,25.0
+Prada,Handbag,Nylon,0.2,2,18.0
+LV,Handbag,Canvas,0.1,3,35.0
+Hermes,Handbag,Leather,0.3,4,80.0
+Zara,Apparel,Cotton,5.0,25,4.0

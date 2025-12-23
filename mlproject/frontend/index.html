@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Pricing & Fraud Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Smart Pricing & Fraud Detection System</h1>
+            <p>Enter product details to predict its price and check for fraudulent patterns.</p>
+        </header>
+
+        <main>
+            <form id="product-form">
+                <div class="form-group">
+                    <label for="brand">Brand</label>
+                    <input type="text" id="brand" name="brand" placeholder="e.g., Nike" required>
+                </div>
+                <div class="form-group">
+                    <label for="category">Category</label>
+                    <input type="text" id="category" name="category" placeholder="e.g., Shoes" required>
+                </div>
+                <div class="form-group">
+                    <label for="material">Material</label>
+                    <input type="text" id="material" name="material" placeholder="e.g., Leather" required>
+                </div>
+                <div class="form-group">
+                    <label for="rating">Rating</label>
+                    <input type="number" id="rating" name="rating" step="0.1" min="0" max="5" placeholder="e.g., 4.5" required>
+                </div>
+                <div class="form-group">
+                    <label for="transactions">Transactions</label>
+                    <input type="number" id="transactions" name="transactions" min="0" placeholder="e.g., 1000" required>
+                </div>
+                <div class="buttons-container">
+                    <button type="submit" id="predict-price-btn">Predict Price</button>
+                    <button type="button" id="detect-fraud-btn">Detect Fraud</button>
+                </div>
+            </form>
+
+            <div id="results-container" class="results-container" style="display:none;">
+                <h2>Results</h2>
+                <div id="price-result" class="result-item"></div>
+                <div id="fraud-result" class="result-item"></div>
+            </div>
+            <div id="error-container" class="error-container" style="display:none;"></div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 AI-Powered Solutions Inc.</p>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
