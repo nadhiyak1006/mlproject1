@@ -69,19 +69,25 @@ async def get_fraud_detection(product: Product):
     try:
         input_data = product.dict()
         logger.info(f"Received fraud detection request: {input_data}")
-        
+
+        # ✅ FIX: Ensure price exists (fraud model expects it)
+        if "price" not in input_data or input_data["price"] is None:
+            input_data["price"] = 0.0
+            logger.warning("Price missing in fraud request. Defaulting price to 0.0")
+
         is_fraud = predict_fraud(input_data)
 
         if is_fraud is None:
-            logger.error("Fraud detection returned None. Model might not be loaded.")
+            logger.error("Fraud detection returned None.")
             raise HTTPException(status_code=500, detail="Model could not make a detection.")
-        
+
         logger.info(f"Fraud detection successful. Is Fraud: {is_fraud}")
         return FraudDetectionResponse(is_fraud=is_fraud)
 
     except Exception as e:
         logger.exception(f"Exception in fraud detection: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
 
 # To run the app: uvicorn app.main:app --reload --port 8000
 if __name__ == '__main__':
